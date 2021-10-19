@@ -1,0 +1,12 @@
+@font-face {
+  font-weight: 400;
+  font-family: 'TT Hazelnuts';
+  src: url('./TTHazelnuts-Regular.woff2') format('woff2'),
+    url('./TTHazelnuts-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'TT Hazelnuts';
+  src: url('./TTHazelnuts-Medium.woff') format('woff2'),
+    url('./TTHazelnuts-Medium.woff') format('woff');}
