@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 22px 0 46px;
+  width: 100%;
+}
+
+.footer__copyright {
+  margin: 0;
+  color: #46494a;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 879px) {
+  .footer {
+    padding: 0;
+  }
+
+  .footer__container {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .footer__container {
+    margin: 0;
+  }
+}

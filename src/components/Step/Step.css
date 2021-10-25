@@ -1,0 +1,29 @@
+.step {
+  display: grid;
+  align-items: center;
+  padding: 10px 20px;
+
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+.step:nth-child(even) .step__image {
+  grid-column: 2;
+}
+
+@media screen and (max-width: 879px) {}
+
+@media screen and (max-width: 719px) {
+  .step {
+    padding: 20px;
+    text-align: center;
+
+    justify-items: center;
+    grid-auto-flow: row;
+    gap: 12px;
+  }
+
+  .step:nth-child(even) .step__image {
+    grid-column: 1;
+  }
+}

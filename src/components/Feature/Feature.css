@@ -1,0 +1,28 @@
+.feature {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feature__icon {
+  margin: 10px auto;
+}
+
+.feature__title {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.feature__caption {
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
