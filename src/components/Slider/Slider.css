@@ -13,6 +13,16 @@
   margin: 0 10px;
 }
 
+.swiper-pagination-bullet {
+  border: 3px solid #db8b2d;
+  background: none;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #db8b2d;
+}
+
 @media screen and (max-width: 679px) {
   .slider {
     margin: 36px 18px;
