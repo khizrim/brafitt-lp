@@ -7,13 +7,13 @@ import Promo from '../Promo/Promo';
 import Main from '../Main/Main';
 import About from '../About/About';
 import Countries from '../Countries/Countries';
+import Compare from '../Compare/Compare';
 import Features from '../Features/Features';
 import Quote from '../Quote/Quote';
 import Steps from '../Steps/Steps';
 import Footer from '../Footer/Footer';
 
 import { appoinment, comfort, cta, masthead, quote1, quote2, steps } from '../../utils/constants';
-import Compare from '../Compare/Compare';
 
 const App = () => (
   <div className="app">
