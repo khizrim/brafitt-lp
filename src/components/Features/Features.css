@@ -68,4 +68,8 @@
   .features__items {
     grid-auto-flow: row;
   }
+
+  .features__title {
+    max-width: none;
+  }
 }
