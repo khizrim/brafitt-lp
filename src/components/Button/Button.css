@@ -7,9 +7,14 @@
   color: #fff;
   font-weight: normal;
   font-style: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 16px;
+  line-height: 18px;
   cursor: pointer;
+  transition: opacity .2s ease-in;
+}
+
+.button:hover {
+  opacity: .8;
 }
 
 .button_type_primary {
@@ -20,4 +25,11 @@
   border: 1px solid #000;
   background: transparent;
   color: #000;
+}
+
+@media screen and (max-width: 679px) {
+  .button {
+    width: 100%;
+    height: 52px;
+  }
 }
