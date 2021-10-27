@@ -1,6 +1,7 @@
 .header {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
   padding: 24px;
@@ -9,6 +10,17 @@
 
 .header__logo-link {
   line-height: 0;
+  transition: opacity .2s ease-in;
+}
+
+.header__logo-link:hover {
+  opacity: .6;
+}
+
+.header__description {
+  margin: 12px 0 0;
+  color: #DDA46F;
+  text-align: center;
 }
 
 @media screen and (max-width: 879px) {
