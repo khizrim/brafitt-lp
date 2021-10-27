@@ -3,16 +3,16 @@ import comfort1 from '../images/comfort-1.svg';
 import comfort2 from '../images/comfort-2.svg';
 import comfort3 from '../images/comfort-3.svg';
 
-import step1 from '../images/step-1.png';
-import step2 from '../images/step-2.png';
-import step3 from '../images/step-3.png';
-import step4 from '../images/step-4.png';
-import step5 from '../images/step-5.png';
-import step6 from '../images/step-6.png';
+import step1 from '../images/step-1.svg';
+import step2 from '../images/step-2.svg';
+import step3 from '../images/step-3.svg';
+import step4 from '../images/step-4.svg';
+import step5 from '../images/step-5.svg';
+import step6 from '../images/step-6.svg';
 
-import safety1 from '../images/safety-1.png';
-import safety2 from '../images/safety-2.png';
-import safety3 from '../images/safety-3.png';
+import safety1 from '../images/safety-1.svg';
+import safety2 from '../images/safety-2.svg';
+import safety3 from '../images/safety-3.svg';
 
 import reasons1 from '../images/reasons-1.svg';
 import reasons2 from '../images/reasons-2.svg';
